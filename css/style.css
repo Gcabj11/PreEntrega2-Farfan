@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+
+body{
+    font-family: Open Sans;
+}
+
+.background{
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(19,21,22);
+    padding: 0 8%;
+}
+
+.goUp{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+nav{
+    width: 90%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: rgb(255, 83, 83);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    padding: 15px;
+    margin: 15px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+nav ul a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.7rem;
+}
+nav li a:hover{
+    background-color: #ffffff;
+    color: rgb(255, 83, 83);
+    border-radius: 20px;
+}
+
+.welcome-title{ 
+    text-align: center;
+    margin: 25px 0;
+}
+
+.banner{
+    width: auto;
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.iconlogo{
+    width: 140px;
+    height: 70px;
+    margin-left: 10px;
+    margin-block: auto;
+}
+.cont{
+    margin: 25px;
+}
+
+.images{
+    display: flex;
+    gap: 20px;
+}
+
+.img1{
+    width: 550px;
+    height: 550px;
+    border-radius: 30px;
+    border: double 2px rgb(19,21,22);
+    opacity: .9;
+}
+.img1:hover{
+    opacity: 1;
+    border: inset 2px black;
+}
+
+.img2{
+    width: 550px;
+    height: 550px;
+    border-radius: 30px;
+    border: double 2px rgb(19,21,22);
+    opacity: .9;
+}
+.img2:hover{
+    opacity: 1;
+    border: inset 2px black;
+}
+
+.img3{
+    width: 550px;
+    height: 550px;
+    border-radius: 30px;
+    border: double 2px rgb(19,21,22);
+    opacity: .9;
+}
+.img3:hover{
+    opacity: 1;
+    border: inset 2px black;
+}
+
+.img4{
+    width: 550px;
+    height: 550px;
+    border-radius: 30px;
+    border: double 2px rgb(19,21,22);
+    opacity: .9;
+}
+.img4:hover{
+    opacity: 1;
+    border: inset 2px black;
+}
+
+.img5{
+    width: 550px;
+    height: 550px;
+    border-radius: 30px;
+    border: double 2px rgb(19,21,22);
+    opacity: .9;
+}
+.img5:hover{
+    opacity: 1;
+    border: inset 2px black;
+}
+
+.img6{
+    width: 550px;
+    height: 550px;
+    border-radius: 30px;
+    border: double 2px rgb(19,21,22);
+    opacity: .9;
+}
+.img6:hover{
+    opacity: 1;
+    border: inset 2px black;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ul{
+    margin: 10px
+}
+footer{
+    height: 10vh;
+    width: 100%;
+}
+
+p{
+    text-align: center;
+}
