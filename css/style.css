@@ -21,14 +21,6 @@ body {
     padding: 0 8%;
 }
 
-.goUp {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    height: 45px;
-    width: 45px;
-}
-
 /* Estilos de navegación */
 .carousel-item {
     height: 65vh;
@@ -428,7 +420,6 @@ article {
         height: 25px;
         width: 25px;
     }
-
     
 }
 
@@ -562,5 +553,5 @@ body {
     height: auto;
     width: 100%;
     border-radius: 25px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
