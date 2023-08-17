@@ -550,3 +550,15 @@ body {
   border-radius: 25px;
   margin-top: 70px;
 }
+
+.formulario {
+  margin-top: 150px;
+}
+
+.video-element {
+  margin-top: 150px;
+  border: solid #000000 2px;
+  width: 1600px;
+  height: 900px;
+  border-radius: 10px;
+}
